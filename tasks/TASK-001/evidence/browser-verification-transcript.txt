@@ -1,0 +1,1200 @@
+
+$ screenshot tasks/TASK-001/evidence/browser-desktop.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-desktop.png
+
+$ eval 'JSON.stringify({url:location.href,width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"url\":\"http://127.0.0.1:5173/\",\"width\":1440,\"scrollWidth\":1440}"
+
+$ fill @e9 Shooting
+✓ Done
+
+$ press Enter
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]: Shooting
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [ref=e11]
+    - heading "Sessions" [level=2, ref=e12]
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]: Shooting
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [ref=e11]
+    - heading "1 session" [level=2, ref=e12]
+    - columnheader "Session" [ref=e23]
+    - columnheader "Start" [ref=e24]
+    - columnheader "Coach" [ref=e25]
+    - columnheader "Capacity" [ref=e26]
+    - columnheader "Status" [ref=e27]
+    - rowheader "U14 Shooting Lab training · North Court" [ref=e18]
+      - link "U14 Shooting Lab" [ref=e28]
+    - cell "16 Sept 2026, 20:41 90 minutes" [ref=e19]
+    - cell "Maya Brooks" [ref=e20]
+    - cell "14 of 18 booked" [ref=e21]
+    - cell "Scheduled" [ref=e22]
+
+$ focus @e28
+✓ Done
+
+$ press Enter
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e8]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e9]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e10]: Shooting
+    - combobox "Status" [expanded=false, ref=e11]: All statuses
+      - option "All statuses" [selected, ref=e16]
+      - option "Scheduled" [ref=e17]
+      - option "Full" [ref=e18]
+      - option "Cancelled" [ref=e19]
+      - option "Completed" [ref=e20]
+    - button "Clear filters" [ref=e12]
+    - heading "1 session" [level=2, ref=e15]
+    - columnheader "Session" [ref=e27]
+    - columnheader "Start" [ref=e28]
+    - columnheader "Coach" [ref=e29]
+    - columnheader "Capacity" [ref=e30]
+    - columnheader "Status" [ref=e31]
+    - rowheader "U14 Shooting Lab training · North Court" [ref=e21]
+      - link "U14 Shooting Lab" [ref=e32]
+    - cell "16 Sept 2026, 20:41 90 minutes" [ref=e22]
+    - cell "Maya Brooks" [ref=e23]
+    - cell "14 of 18 booked" [ref=e24]
+    - cell "Scheduled" [ref=e25]
+  - region "U14 Shooting Lab" [ref=e7]
+    - link "← Back to sessions" [ref=e13]
+    - heading "U14 Shooting Lab" [level=2, ref=e14]
+    - link "maya@example.test" [ref=e26]
+
+$ eval 'JSON.stringify({focus:document.activeElement.id,scrollWidth:document.documentElement.scrollWidth,width:innerWidth})'
+"{\"focus\":\"details-heading\",\"scrollWidth\":1440,\"width\":1440}"
+
+$ click @e13
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]: Shooting
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [ref=e11]
+    - heading "1 session" [level=2, ref=e12]
+    - columnheader "Session" [ref=e23]
+    - columnheader "Start" [ref=e24]
+    - columnheader "Coach" [ref=e25]
+    - columnheader "Capacity" [ref=e26]
+    - columnheader "Status" [ref=e27]
+    - rowheader "U14 Shooting Lab training · North Court" [ref=e18]
+      - link "U14 Shooting Lab" [ref=e28]
+    - cell "16 Sept 2026, 20:41 90 minutes" [ref=e19]
+    - cell "Maya Brooks" [ref=e20]
+    - cell "14 of 18 booked" [ref=e21]
+    - cell "Scheduled" [ref=e22]
+
+$ eval 'JSON.stringify({focus:document.activeElement.textContent,query:document.querySelector("input").value})'
+"{\"focus\":\"U14 Shooting Lab\",\"query\":\"Shooting\"}"
+
+$ select @e10 cancelled
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]: Shooting
+    - combobox "Status" [expanded=false, ref=e10]: Cancelled
+      - option "All statuses" [ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [selected, ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [ref=e11]
+    - heading "0 sessions" [level=2, ref=e12]
+    - heading "No sessions match your filters." [level=3, ref=e18]
+    - button "Clear filters" [ref=e19]
+
+$ click @e11
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "5 sessions" [level=2, ref=e12]
+    - columnheader "Session" [ref=e43]
+    - columnheader "Start" [ref=e44]
+    - columnheader "Coach" [ref=e45]
+    - columnheader "Capacity" [ref=e46]
+    - columnheader "Status" [ref=e47]
+    - rowheader "U14 Shooting Lab training · North Court" [ref=e18]
+      - link "U14 Shooting Lab" [ref=e48]
+    - cell "16 Sept 2026, 20:41 90 minutes" [ref=e19]
+    - cell "Maya Brooks" [ref=e20]
+    - cell "14 of 18 booked" [ref=e21]
+    - cell "Scheduled" [ref=e22]
+    - rowheader "Varsity Defense Intensive camp · Central Sports Hall" [ref=e23]
+      - link "Varsity Defense Intensive" [ref=e49]
+    - cell "17 Sept 2026, 18:11 180 minutes" [ref=e24]
+    - cell "Ethan Cole" [ref=e25]
+    - cell "24 of 24 booked" [ref=e26]
+    - cell "Full" [ref=e27]
+    - rowheader "Private Footwork Review private · Studio B" [ref=e28]
+      - link "Private Footwork Review" [ref=e50]
+    - cell "18 Sept 2026, 21:41 60 minutes" [ref=e29]
+    - cell "Maya Brooks" [ref=e30]
+    - cell "0 of 1 booked" [ref=e31]
+    - cell "Scheduled" [ref=e32]
+    - rowheader "Weekend Ball Handling training · West Community Gym" [ref=e33]
+      - link "Weekend Ball Handling" [ref=e51]
+    - cell "21 Sept 2026, 13:41 75 minutes" [ref=e34]
+    - cell "Lena Ortiz" [ref=e35]
+    - cell "9 of 16 booked" [ref=e36]
+    - cell "Cancelled" [ref=e37]
+    - rowheader "U12 Team Fundamentals training · Central Sports Hall" [ref=e38]
+      - link "U12 Team Fundamentals" [ref=e52]
+    - cell "6 Sept 2026, 19:41 90 minutes" [ref=e39]
+    - cell "Ethan Cole" [ref=e40]
+    - cell "17 of 20 booked" [ref=e41]
+    - cell "Completed" [ref=e42]
+
+$ set viewport 390 844
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "5 sessions" [level=2, ref=e12]
+    - link "U14 Shooting Lab" [ref=e18]
+    - link "Varsity Defense Intensive" [ref=e19]
+    - link "Private Footwork Review" [ref=e20]
+    - link "Weekend Ball Handling" [ref=e21]
+    - link "U12 Team Fundamentals" [ref=e22]
+
+$ screenshot tasks/TASK-001/evidence/browser-mobile.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-mobile.png
+
+$ eval 'JSON.stringify({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,controls:[...document.querySelectorAll("button,input,select,a")].filter(e=>e.getBoundingClientRect().width>0).map(e=>({text:e.textContent||e.getAttribute("aria-label"),height:e.getBoundingClientRect().height,width:e.getBoundingClientRect().width}))})'
+"{\"width\":390,\"scrollWidth\":390,\"controls\":[{\"text\":\"Skip to content\",\"height\":44.296875,\"width\":121.921875},{\"text\":\"COURTSIDETRAINING OPERATIONS\",\"height\":35.796875,\"width\":143.953125},{\"text\":\"Sessions\",\"height\":67.296875,\"width\":69.0625},{\"text\":\"Create session\",\"height\":44,\"width\":358},{\"text\":null,\"height\":45.1875,\"width\":324},{\"text\":\"All statusesScheduledFullCancelledCompleted\",\"height\":44,\"width\":207.421875},{\"text\":\"Clear filters\",\"height\":44,\"width\":100.578125},{\"text\":\"U14 Shooting Lab\",\"height\":44,\"width\":120.09375},{\"text\":\"Varsity Defense Intensive\",\"height\":44,\"width\":173.140625},{\"text\":\"Private Footwork Review\",\"height\":44,\"width\":167.90625},{\"text\":\"Weekend Ball Handling\",\"height\":44,\"width\":156.203125},{\"text\":\"U12 Team Fundamentals\",\"height\":44,\"width\":166.5}]}"
+
+$ focus @e18
+✓ Done
+
+$ press Enter
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e6]
+  - region "U14 Shooting Lab" [ref=e5]
+    - link "← Back to sessions" [ref=e7]
+    - heading "U14 Shooting Lab" [level=1, ref=e8]
+    - link "maya@example.test" [ref=e9]
+
+$ eval 'JSON.stringify({focus:document.activeElement.id,width:innerWidth,scrollWidth:document.documentElement.scrollWidth,text:document.querySelector(".details").innerText})'
+"{\"focus\":\"details-heading\",\"width\":390,\"scrollWidth\":390,\"text\":\"← Back to sessions\\nU14 Shooting Lab\\nScheduled\\n\\ntraining · Public\\n\\nSchedule\\n16 Sept 2026, 20:41\\nEurope/Warsaw · 90 minutes\\nCapacity\\n14 booked of 18 places\\n4 places remaining\\nCoach\\nMaya Brooks\\nmaya@example.test\\nLocation\\nNorth Court\\n18 Harbor Street\\nDescription\\nSmall-group shooting mechanics, decision making, and game-speed repetitions.\\nTrainer notes\\nBring the portable shot clock and reserve the east basket.\\nCreated\\n31 Aug 2026, 17:11\\nLast updated\\n8 Sept 2026, 13:56\"}"
+
+$ click @e7
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "5 sessions" [level=2, ref=e12]
+    - link "U14 Shooting Lab" [ref=e18]
+    - link "Varsity Defense Intensive" [ref=e19]
+    - link "Private Footwork Review" [ref=e20]
+    - link "Weekend Ball Handling" [ref=e21]
+    - link "U12 Team Fundamentals" [ref=e22]
+
+$ select @e10 cancelled
+✓ Done
+
+$ click @e8
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e23]
+    - option "Training" [ref=e24]
+    - option "Camp" [ref=e25]
+    - option "Private" [ref=e26]
+  - spinbutton "Day Day" [ref=e31]: 0
+  - spinbutton "Month Month" [ref=e32]: 0
+  - spinbutton "Year Year" [ref=e33]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e34]: 0
+  - spinbutton "Minutes Minutes" [ref=e35]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, ref=e13]: Select coach
+    - option "Select coach" [selected, ref=e27]
+    - option "Maya Brooks" [ref=e28]
+    - option "Ethan Cole" [ref=e29]
+    - option "Lena Ortiz" [ref=e30]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ click @e8
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e23]
+    - option "Training" [ref=e24]
+    - option "Camp" [ref=e25]
+    - option "Private" [ref=e26]
+  - spinbutton "Day Day" [ref=e31]: 0
+  - spinbutton "Month Month" [ref=e32]: 0
+  - spinbutton "Year Year" [ref=e33]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e34]: 0
+  - spinbutton "Minutes Minutes" [ref=e35]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, ref=e13]: Select coach
+    - option "Select coach" [selected, ref=e27]
+    - option "Maya Brooks" [ref=e28]
+    - option "Ethan Cole" [ref=e29]
+    - option "Lena Ortiz" [ref=e30]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ eval 'JSON.stringify({focus:document.activeElement.id,errors:[...document.querySelectorAll("[aria-invalid=true]")].map(e=>({id:e.id,description:e.getAttribute("aria-describedby")})),inputs:[...document.querySelectorAll("input")].map(e=>({id:e.id,type:e.type})),width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"focus\":\"title\",\"errors\":[{\"id\":\"title\",\"description\":\"title-hint title-error\"},{\"id\":\"type\",\"description\":\"type-error\"},{\"id\":\"date\",\"description\":\"date-error\"},{\"id\":\"time\",\"description\":\"time-error\"},{\"id\":\"duration\",\"description\":\"duration-hint duration-error\"},{\"id\":\"coachId\",\"description\":\"coachId-error\"},{\"id\":\"locationName\",\"description\":\"locationName-hint locationName-error\"},{\"id\":\"locationAddress\",\"description\":\"locationAddress-hint locationAddress-error\"},{\"id\":\"capacity\",\"description\":\"capacity-hint capacity-error\"}],\"inputs\":[{\"id\":\"title\",\"type\":\"text\"},{\"id\":\"date\",\"type\":\"date\"},{\"id\":\"time\",\"type\":\"time\"},{\"id\":\"duration\",\"type\":\"number\"},{\"id\":\"locationName\",\"type\":\"text\"},{\"id\":\"locationAddress\",\"type\":\"text\"},{\"id\":\"capacity\",\"type\":\"number\"},{\"id\":\"\",\"type\":\"radio\"},{\"id\":\"\",\"type\":\"radio\"}],\"width\":390,\"scrollWidth\":390}"
+
+$ screenshot tasks/TASK-001/evidence/browser-validation-mobile.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-validation-mobile.png
+
+$ fill @e10 'Browser verification clinic'
+✓ Done
+
+$ select @e11 training
+✓ Done
+
+$ fill '#date' 2026-10-01
+✓ Done
+
+$ fill '#time' 17:30
+✓ Done
+
+$ fill @e12 90
+✓ Done
+
+$ select @e13 coach_01
+✓ Done
+
+$ fill @e14 'North Court'
+✓ Done
+
+$ fill @e15 '18 Harbor Street'
+✓ Done
+
+$ fill @e16 18
+✓ Done
+
+$ click @e18
+✓ Done
+
+$ fill @e19 'A long description for responsive verification: repeated basketball practice instructions across multiple lines, with attention to footwork and shooting mechanics. Operators should be able to read the full description on mobile without horizontal scrolling.'
+✓ Done
+
+$ fill @e20 'Bring cones and portable shot clock.'
+✓ Done
+
+$ eval 'window.__assessmentMocks.setScenario("create-error")'
+null
+
+$ click @e8
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - link "Check sessions" [ref=e21]
+  - textbox "Title" [required, ref=e10]: Browser verification clinic
+  - combobox "Session type" [expanded=false, ref=e11]: Training
+    - option "Select type" [ref=e24]
+    - option "Training" [selected, ref=e25]
+    - option "Camp" [ref=e26]
+    - option "Private" [ref=e27]
+  - spinbutton "Day Day" [ref=e32]: 1
+  - spinbutton "Month Month" [ref=e33]: 10
+  - spinbutton "Year Year" [ref=e34]: 2026
+  - button "Show date picker" [ref=e22]
+  - spinbutton "Hours Hours" [ref=e35]: 17
+  - spinbutton "Minutes Minutes" [ref=e36]: 30
+  - button "Show time picker" [ref=e23]
+  - spinbutton "Duration (minutes)" [required, ref=e12]: 90
+  - combobox "Coach" [expanded=false, ref=e13]: Maya Brooks
+    - option "Select coach" [ref=e28]
+    - option "Maya Brooks" [selected, ref=e29]
+    - option "Ethan Cole" [ref=e30]
+    - option "Lena Ortiz" [ref=e31]
+  - textbox "Location name" [required, ref=e14]: North Court
+  - textbox "Location address" [required, ref=e15]: 18 Harbor Street
+  - spinbutton "Capacity" [required, ref=e16]: 18
+  - radio "Public" [checked=false, ref=e17]
+  - radio "Invite-only" [checked=true, ref=e18]
+  - textbox "Description (optional)" [ref=e19]: A long description for responsive verification: repeated basketball practice instructions across multiple lines, with attention to footwork and shooting mechanics. Operators should be able to read the full description on mobile without horizontal scrolling.
+  - textbox "Trainer notes (optional)" [ref=e20]: Bring cones and portable shot clock.
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ eval 'JSON.stringify({alert:document.querySelector("[role=alert]")?.textContent,values:[...document.querySelectorAll("input,select,textarea")].map(e=>({id:e.id,value:e.value,checked:e.checked})),width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"alert\":\"The session could not be created. Your entries are still here.Check sessions\",\"values\":[{\"id\":\"title\",\"value\":\"Browser verification clinic\",\"checked\":false},{\"id\":\"type\",\"value\":\"training\"},{\"id\":\"date\",\"value\":\"2026-10-01\",\"checked\":false},{\"id\":\"time\",\"value\":\"17:30\",\"checked\":false},{\"id\":\"duration\",\"value\":\"90\",\"checked\":false},{\"id\":\"coachId\",\"value\":\"coach_01\"},{\"id\":\"locationName\",\"value\":\"North Court\",\"checked\":false},{\"id\":\"locationAddress\",\"value\":\"18 Harbor Street\",\"checked\":false},{\"id\":\"capacity\",\"value\":\"18\",\"checked\":false},{\"id\":\"\",\"value\":\"public\",\"checked\":false},{\"id\":\"\",\"value\":\"invite-only\",\"checked\":true},{\"id\":\"description\",\"value\":\"A long description for responsive verification: repeated basketball practice instructions across multiple lines, with attention to footwork and shooting mechanics. Operators should be able to read the full description on mobile without horizontal scrolling.\"},{\"id\":\"trainerNotes\",\"value\":\"Bring cones and portable shot clock.\"}],\"width\":390,\"scrollWidth\":390}"
+
+$ eval 'window.__assessmentMocks.setScenario("normal"); window.__verificationStates=[]; window.__verificationObserver=new MutationObserver(()=>window.__verificationStates.push({text:document.body.innerText,buttons:[...document.querySelectorAll("button")].map(e=>({text:e.textContent,disabled:e.disabled}))})); window.__verificationObserver.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true});'
+null
+
+$ click @e8
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsSession created: Browser verification clinicOpen" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e11]
+  - heading "Session created: Browser verification clinic" [level=2, ref=e5]
+  - link "Open created session" [ref=e6]
+  - button "Clear filters" [ref=e7]
+  - button "Dismiss confirmation" [ref=e8]
+  - heading "Training sessions" [level=1, ref=e9]
+  - link "Create session" [ref=e12]
+  - region "Sessions workspace" [ref=e10]
+    - searchbox "Search sessions" [ref=e13]
+    - combobox "Status" [expanded=false, ref=e14]: Cancelled
+      - option "All statuses" [ref=e17]
+      - option "Scheduled" [ref=e18]
+      - option "Full" [ref=e19]
+      - option "Cancelled" [selected, ref=e20]
+      - option "Completed" [ref=e21]
+    - button "Clear filters" [ref=e15]
+    - heading "1 session" [level=2, ref=e16]
+    - link "Weekend Ball Handling" [ref=e22]
+
+$ eval 'window.__verificationObserver.disconnect(); JSON.stringify(window.__verificationStates.filter(s=>s.buttons.some(b=>b.text.includes("Creating"))))'
+"[{\"text\":\"Skip to content\\nCOURTSIDE\\nTRAINING OPERATIONS\\nSessions\\n← Back to sessions\\nCreate session\\n\\nTimes are in your local timezone: Europe/Warsaw. All fields are required unless marked optional.\\n\\nSession\\nTitle\\n3–80 characters.\\nSession type\\nSelect type\\nTraining\\nCamp\\nPrivate\\nSchedule\\nDate\\nStart time\\nDuration (minutes)\\n30–240 minutes.\\nCoach\\nSelect coach\\nMaya Brooks\\nEthan Cole\\nLena Ortiz\\nLocation and capacity\\nLocation name\\n2–80 characters.\\nLocation address\\n3–120 characters.\\nCapacity\\n1–100 places.\\nVisibility\\nPublic\\nInvite-only\\nOptional details\\nDescription (optional)\\nTrainer notes (optional)\\n36 / 500 characters\\nCreating session…\\nBack to sessions\\n\\nCreating session…\",\"buttons\":[{\"text\":\"Creating session…\",\"disabled\":true}]}]"
+
+$ screenshot tasks/TASK-001/evidence/browser-created-mobile.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-created-mobile.png
+
+$ click @e6
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsSession created: Browser verification clinicOpen" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e10]
+  - heading "Session created: Browser verification clinic" [level=2, ref=e5]
+  - link "Open created session" [ref=e6]
+  - button "Clear filters" [ref=e7]
+  - button "Dismiss confirmation" [ref=e8]
+  - region "Browser verification clinic" [ref=e9]
+    - link "← Back to sessions" [ref=e11]
+    - heading "Browser verification clinic" [level=1, ref=e12]
+    - link "maya@example.test" [ref=e13]
+
+$ eval 'JSON.stringify({url:location.href,focus:document.activeElement.id,width:innerWidth,scrollWidth:document.documentElement.scrollWidth,text:document.querySelector(".details").innerText})'
+"{\"url\":\"http://127.0.0.1:5173/#/sessions/ses_7c178f92-df74-4e99-9b5c-c92704caf200\",\"focus\":\"details-heading\",\"width\":390,\"scrollWidth\":390,\"text\":\"← Back to sessions\\nBrowser verification clinic\\nScheduled\\n\\ntraining · Invite-only\\n\\nSchedule\\n1 Oct 2026, 17:30\\nEurope/Warsaw · 90 minutes\\nCapacity\\n0 booked of 18 places\\n18 places remaining\\nCoach\\nMaya Brooks\\nmaya@example.test\\nLocation\\nNorth Court\\n18 Harbor Street\\nDescription\\nA long description for responsive verification: repeated basketball practice instructions across multiple lines, with attention to footwork and shooting mechanics. Operators should be able to read the full description on mobile without horizontal scrolling.\\nTrainer notes\\nBring cones and portable shot clock.\\nCreated\\n9 Sept 2026, 16:43\\nLast updated\\n9 Sept 2026, 16:43\"}"
+
+$ screenshot tasks/TASK-001/evidence/browser-created-details-mobile.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-created-details-mobile.png
+
+$ console
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+
+$ errors
+
+$ network requests
+[64E18FE97BC1900FCD2CC3CB52548255] GET http://127.0.0.1:5173/ (Document) 200
+[4695.2] GET http://127.0.0.1:5173/@vite/client (Script) 200
+[4695.3] GET http://127.0.0.1:5173/src/main.tsx (Script) 200
+[4695.6] GET http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=834c908e (Script) 200
+[4695.7] GET http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=834c908e (Script) 200
+[4695.8] GET http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=834c908e (Script) 200
+[4695.9] GET http://127.0.0.1:5173/src/app/App.tsx (Script) 200
+[4695.10] GET http://127.0.0.1:5173/src/app/ErrorBoundary.tsx (Script) 200
+[4695.11] GET http://127.0.0.1:5173/src/styles.css (Script) 200
+[4695.12] GET http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs (Script) 200
+[4695.13] GET http://127.0.0.1:5173/node_modules/.vite/deps/chunk-6U5CWOEO.js?v=834c908e (Script) 200
+[4695.14] GET http://127.0.0.1:5173/node_modules/.vite/deps/chunk-WG6LGXCI.js?v=834c908e (Script) 200
+[4695.15] GET http://127.0.0.1:5173/src/app/navigation.ts (Script) 200
+[4695.16] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.17] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.18] GET http://127.0.0.1:5173/src/features/sessions/use-request.ts (Script) 200
+[4695.19] GET http://127.0.0.1:5173/src/features/sessions/use-create-session.ts (Script) 200
+[4695.20] GET http://127.0.0.1:5173/src/features/sessions/SessionList.tsx (Script) 200
+[4695.21] GET http://127.0.0.1:5173/src/features/sessions/SessionDetails.tsx (Script) 200
+[4695.22] GET http://127.0.0.1:5173/src/features/sessions/CreateSession.tsx (Script) 200
+[4695.23] GET http://127.0.0.1:5173/src/features/sessions/RequestFeedback.tsx (Script) 200
+[4695.24] GET http://127.0.0.1:5173/src/features/sessions/StatusLabel.tsx (Script) 200
+[4695.26] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.27] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.28] GET http://127.0.0.1:5173/src/features/sessions/session-form.ts (Script) 200
+[4695.29] GET http://127.0.0.1:5173/src/features/sessions/date-time.ts (Script) 200
+[4695.30] GET http://127.0.0.1:5173/src/features/sessions/FormField.tsx (Script) 200
+[4695.31] GET http://127.0.0.1:5173/src/mocks/browser.ts (Script) 200
+[4695.32] GET http://127.0.0.1:5173/node_modules/.vite/deps/msw_browser.js?v=834c908e (Script) 200
+[4695.33] GET http://127.0.0.1:5173/src/mocks/handlers.ts (Script) 200
+[4695.34] GET http://127.0.0.1:5173/src/mocks/scenarios.ts (Script) 200
+[4695.35] GET http://127.0.0.1:5173/favicon.ico (Other) 404
+[4695.36] GET http://127.0.0.1:5173/node_modules/.vite/deps/chunk-SNW57RWA.js?v=834c908e (Script) 200
+[4695.37] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/mock-scenarios.json?import (Script) 200
+[4695.38] GET http://127.0.0.1:5173/src/mocks/store.ts (Script) 200
+[4695.39] GET http://127.0.0.1:5173/node_modules/.vite/deps/msw.js?v=834c908e (Script) 200
+[4695.40] GET http://127.0.0.1:5173/node_modules/.vite/deps/chunk-IFM7Y4HY.js?v=834c908e (Script) 200
+[4695.41] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/sessions.json?import (Script) 200
+[4695.42] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/coaches.json?import (Script) 200
+[4695.43] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/fixture-clock.json?import (Script) 200
+[4695.44] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/session-details/ses_101.json?import (Script) 200
+[4695.45] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/session-details/ses_102.json?import (Script) 200
+[4695.46] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/session-details/ses_103.json?import (Script) 200
+[4695.47] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/session-details/ses_104.json?import (Script) 200
+[4695.48] GET http://127.0.0.1:5173/frontend-accelerator-assessment/fixtures/session-details/ses_105.json?import (Script) 200
+[4695.50] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.51] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.52] GET http://127.0.0.1:5173/api/sessions?query=Shooting&status= (Fetch) 200
+[4695.53] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch)
+[4695.54] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 200
+[4695.55] GET http://127.0.0.1:5173/api/sessions?query=Shooting&status=cancelled (Fetch) 200
+[4695.56] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.57] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch)
+[4695.58] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 200
+[4695.59] GET http://127.0.0.1:5173/api/sessions?query=&status=cancelled (Fetch) 200
+[4695.60] GET http://127.0.0.1:5173/api/coaches (Fetch) 200
+[4695.61] GET data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4= (Image) 200
+[4695.62] GET data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMTIuNSA3SDExdjZsNS4yNSAzLjE1Ljc1LTEuMjMtNC41LTIuNjd6Ii8+PC9zdmc+ (Image) 200
+[4695.63] POST http://127.0.0.1:5173/api/sessions (Fetch) 500
+[4695.64] POST http://127.0.0.1:5173/api/sessions (Fetch) 201
+[4695.65] GET http://127.0.0.1:5173/api/sessions?query=&status=cancelled (Fetch) 200
+[4695.66] GET http://127.0.0.1:5173/api/sessions/ses_7c178f92-df74-4e99-9b5c-c92704caf200 (Fetch)
+[4695.67] GET http://127.0.0.1:5173/api/sessions/ses_7c178f92-df74-4e99-9b5c-c92704caf200 (Fetch) 200
+
+$ click @e11
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsSession created: Browser verification clinicOpen" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e11]
+  - heading "Session created: Browser verification clinic" [level=2, ref=e5]
+  - link "Open created session" [ref=e6]
+  - button "Clear filters" [ref=e7]
+  - button "Dismiss confirmation" [ref=e8]
+  - heading "Training sessions" [level=1, ref=e9]
+  - link "Create session" [ref=e12]
+  - region "Sessions workspace" [ref=e10]
+    - searchbox "Search sessions" [ref=e13]
+    - combobox "Status" [expanded=false, ref=e14]: Cancelled
+      - option "All statuses" [ref=e17]
+      - option "Scheduled" [ref=e18]
+      - option "Full" [ref=e19]
+      - option "Cancelled" [selected, ref=e20]
+      - option "Completed" [ref=e21]
+    - button "Clear filters" [ref=e15]
+    - heading "1 session" [level=2, ref=e16]
+    - link "Weekend Ball Handling" [ref=e22]
+
+$ click @e7
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsSession created: Browser verification clinicOpen" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e10]
+  - heading "Session created: Browser verification clinic" [level=2, ref=e5]
+  - link "Open created session" [ref=e6]
+  - button "Dismiss confirmation" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e8]
+  - link "Create session" [ref=e11]
+  - region "Sessions workspace" [ref=e9]
+    - searchbox "Search sessions" [ref=e12]
+    - combobox "Status" [expanded=false, ref=e13]: All statuses
+      - option "All statuses" [selected, ref=e16]
+      - option "Scheduled" [ref=e17]
+      - option "Full" [ref=e18]
+      - option "Cancelled" [ref=e19]
+      - option "Completed" [ref=e20]
+    - button "Clear filters" [disabled, ref=e14]
+    - heading "6 sessions" [level=2, ref=e15]
+    - link "Browser verification clinic" [ref=e21]
+    - link "U14 Shooting Lab" [ref=e22]
+    - link "Varsity Defense Intensive" [ref=e23]
+    - link "Private Footwork Review" [ref=e24]
+    - link "Weekend Ball Handling" [ref=e25]
+    - link "U12 Team Fundamentals" [ref=e26]
+
+$ open 'http://127.0.0.1:5173/?mockScenario=list-error#/sessions'
+✓ Training sessions · Courtside
+  http://127.0.0.1:5173/?mockScenario=list-error#/sessions
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e14]
+      - option "Scheduled" [ref=e15]
+      - option "Full" [ref=e16]
+      - option "Cancelled" [ref=e17]
+      - option "Completed" [ref=e18]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "Sessions" [level=2, ref=e12]
+    - button "Retry" [ref=e13]
+
+$ eval 'JSON.stringify({statuses:[...document.querySelectorAll("[role=status]")].map(e=>e.textContent),width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"statuses\":[\"\",\"Sessions cannot be loaded right now.\"],\"width\":390,\"scrollWidth\":390}"
+
+$ eval 'window.__assessmentMocks.setScenario("normal")'
+null
+
+$ click @e13
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "5 sessions" [level=2, ref=e12]
+    - link "U14 Shooting Lab" [ref=e18]
+    - link "Varsity Defense Intensive" [ref=e19]
+    - link "Private Footwork Review" [ref=e20]
+    - link "Weekend Ball Handling" [ref=e21]
+    - link "U12 Team Fundamentals" [ref=e22]
+
+$ open 'http://127.0.0.1:5173/?mockScenario=details-error#/sessions/ses_101'
+✓ Training sessions · Courtside
+  http://127.0.0.1:5173/?mockScenario=details-error#/sessions/ses_101
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e6]
+  - region "Session details" [ref=e5]
+    - link "← Back to sessions" [ref=e7]
+    - heading "Session details" [level=1, ref=e8]
+    - button "Retry" [ref=e9]
+
+$ eval 'document.querySelector(".details").innerText'
+"← Back to sessions\nSession details\n\nSession details cannot be loaded right now.\n\nRetry"
+
+$ eval 'window.__assessmentMocks.setScenario("normal")'
+null
+
+$ click @e9
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e6]
+  - region "U14 Shooting Lab" [ref=e5]
+    - link "← Back to sessions" [ref=e7]
+    - heading "U14 Shooting Lab" [level=1, ref=e8]
+    - link "maya@example.test" [ref=e9]
+
+$ open 'http://127.0.0.1:5173/?mockScenario=coaches-error#/sessions/new'
+✓ Training sessions · Courtside
+  http://127.0.0.1:5173/?mockScenario=coaches-error#/sessions/new
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e24]
+    - option "Training" [ref=e25]
+    - option "Camp" [ref=e26]
+    - option "Private" [ref=e27]
+  - spinbutton "Day Day" [ref=e29]: 0
+  - spinbutton "Month Month" [ref=e30]: 0
+  - spinbutton "Year Year" [ref=e31]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e32]: 0
+  - spinbutton "Minutes Minutes" [ref=e33]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, disabled, ref=e13]: Select coach
+    - option "Select coach" [disabled, ref=e28]
+  - button "Retry coaches" [ref=e23]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [disabled, ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ eval 'JSON.stringify({text:document.body.innerText,width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"text\":\"Skip to content\\nCOURTSIDE\\nTRAINING OPERATIONS\\nSessions\\n← Back to sessions\\nCreate session\\n\\nTimes are in your local timezone: Europe/Warsaw. All fields are required unless marked optional.\\n\\nSession\\nTitle\\n3–80 characters.\\nSession type\\nSelect type\\nTraining\\nCamp\\nPrivate\\nSchedule\\nDate\\nStart time\\nDuration (minutes)\\n30–240 minutes.\\nCoach\\nSelect coach\\nCoaches couldn’t load. Retry to choose a coach.Retry coaches\\nLocation and capacity\\nLocation name\\n2–80 characters.\\nLocation address\\n3–120 characters.\\nCapacity\\n1–100 places.\\nVisibility\\nPublic\\nInvite-only\\nOptional details\\nDescription (optional)\\nTrainer notes (optional)\\n0 / 500 characters\\nCreate session\\nBack to sessions\",\"width\":390,\"scrollWidth\":390}"
+
+$ fill @e10 'Retained coach-recovery draft'
+✓ Done
+
+$ eval 'window.__assessmentMocks.setScenario("normal")'
+null
+
+$ click @e23
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]: Retained coach-recovery draft
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e23]
+    - option "Training" [ref=e24]
+    - option "Camp" [ref=e25]
+    - option "Private" [ref=e26]
+  - spinbutton "Day Day" [ref=e31]: 0
+  - spinbutton "Month Month" [ref=e32]: 0
+  - spinbutton "Year Year" [ref=e33]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e34]: 0
+  - spinbutton "Minutes Minutes" [ref=e35]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, ref=e13]: Select coach
+    - option "Select coach" [selected, ref=e27]
+    - option "Maya Brooks" [ref=e28]
+    - option "Ethan Cole" [ref=e29]
+    - option "Lena Ortiz" [ref=e30]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ focus @e10
+✓ Done
+
+$ press Tab
+✓ Done
+
+$ eval 'JSON.stringify({focus:document.activeElement.id,outline:getComputedStyle(document.activeElement).outline,title:document.querySelector("#title").value})'
+"{\"focus\":\"type\",\"outline\":\"rgb(23, 105, 224) solid 2px\",\"title\":\"Retained coach-recovery draft\"}"
+
+$ press Tab
+✓ Done
+
+$ eval 'JSON.stringify({focus:document.activeElement.id,outline:getComputedStyle(document.activeElement).outline})'
+"{\"focus\":\"date\",\"outline\":\"rgb(23, 105, 224) solid 2px\"}"
+
+$ open 'http://127.0.0.1:5173/?mockScenario=empty#/sessions'
+✓ Training sessions · Courtside
+  http://127.0.0.1:5173/?mockScenario=empty#/sessions
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "0 sessions" [level=2, ref=e12]
+    - heading "No sessions yet." [level=3, ref=e18]
+    - link "Create session" [ref=e19]
+
+$ click @e19
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e23]
+    - option "Training" [ref=e24]
+    - option "Camp" [ref=e25]
+    - option "Private" [ref=e26]
+  - spinbutton "Day Day" [ref=e31]: 0
+  - spinbutton "Month Month" [ref=e32]: 0
+  - spinbutton "Year Year" [ref=e33]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e34]: 0
+  - spinbutton "Minutes Minutes" [ref=e35]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, ref=e13]: Select coach
+    - option "Select coach" [selected, ref=e27]
+    - option "Maya Brooks" [ref=e28]
+    - option "Ethan Cole" [ref=e29]
+    - option "Lena Ortiz" [ref=e30]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ open 'http://127.0.0.1:5173/#/sessions/unknown-session'
+✓ Training sessions · Courtside
+  http://127.0.0.1:5173/#/sessions/unknown-session
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e6]
+  - region "Session details" [ref=e5]
+    - link "← Back to sessions" [ref=e7]
+    - heading "Session details" [level=1, ref=e8]
+
+$ eval 'JSON.stringify({text:document.querySelector(".details").innerText,focus:document.activeElement.id,width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"text\":\"← Back to sessions\\nSession details\\n\\nSession not found.\",\"focus\":\"details-heading\",\"width\":390,\"scrollWidth\":390}"
+
+$ click @e7
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [disabled, ref=e11]
+    - heading "5 sessions" [level=2, ref=e12]
+    - link "U14 Shooting Lab" [ref=e18]
+    - link "Varsity Defense Intensive" [ref=e19]
+    - link "Private Footwork Review" [ref=e20]
+    - link "Weekend Ball Handling" [ref=e21]
+    - link "U12 Team Fundamentals" [ref=e22]
+
+$ eval 'JSON.stringify({focus:document.activeElement.id})'
+"{\"focus\":\"workspace-heading\"}"
+
+$ eval 'window.__loadingEvidence=[];window.__loadingObserver=new MutationObserver(()=>window.__loadingEvidence.push([...document.querySelectorAll("[role=status]")].map(e=>e.textContent)));window.__loadingObserver.observe(document.body,{subtree:true,childList:true,characterData:true});'
+null
+
+$ fill @e9 Maya
+✓ Done
+
+$ press Enter
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessionsYOUR WORKSPACETraining sessionsFind sessions, rev" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e7]
+  - heading "Training sessions" [level=1, ref=e5]
+  - link "Create session" [ref=e8]
+  - region "Sessions workspace" [ref=e6]
+    - searchbox "Search sessions" [ref=e9]: Maya
+    - combobox "Status" [expanded=false, ref=e10]: All statuses
+      - option "All statuses" [selected, ref=e13]
+      - option "Scheduled" [ref=e14]
+      - option "Full" [ref=e15]
+      - option "Cancelled" [ref=e16]
+      - option "Completed" [ref=e17]
+    - button "Clear filters" [ref=e11]
+    - heading "2 sessions" [level=2, ref=e12]
+    - link "U14 Shooting Lab" [ref=e18]
+    - link "Private Footwork Review" [ref=e19]
+
+$ eval 'window.__loadingObserver.disconnect();JSON.stringify(window.__loadingEvidence)'
+"[[\"\",\"Loading sessions…\"],[\"\",\"2 sessions found.\"]]"
+
+$ click @e8
+✓ Done
+
+$ set viewport 1440 900
+✓ Done
+
+$ wait 700
+✓ Done
+
+$ snapshot -i
+- generic "Skip to contentCOURTSIDETRAINING OPERATIONSSessions← Back to sessionsCreate sessionTimes are in your" [ref=e1] clickable [onclick]
+  - link "Skip to content" [ref=e2]
+  - link "COURTSIDE TRAINING OPERATIONS" [ref=e3]
+  - navigation "Main" [ref=e4]
+    - link "Sessions" [ref=e5]
+  - link "← Back to sessions" [ref=e6]
+  - heading "Create session" [level=1, ref=e7]
+  - textbox "Title" [required, ref=e10]
+  - combobox "Session type" [expanded=false, ref=e11]: Select type
+    - option "Select type" [selected, ref=e23]
+    - option "Training" [ref=e24]
+    - option "Camp" [ref=e25]
+    - option "Private" [ref=e26]
+  - spinbutton "Day Day" [ref=e31]: 0
+  - spinbutton "Month Month" [ref=e32]: 0
+  - spinbutton "Year Year" [ref=e33]: 0
+  - button "Show date picker" [ref=e21]
+  - spinbutton "Hours Hours" [ref=e34]: 0
+  - spinbutton "Minutes Minutes" [ref=e35]: 0
+  - button "Show time picker" [ref=e22]
+  - spinbutton "Duration (minutes)" [required, ref=e12]
+  - combobox "Coach" [expanded=false, ref=e13]: Select coach
+    - option "Select coach" [selected, ref=e27]
+    - option "Maya Brooks" [ref=e28]
+    - option "Ethan Cole" [ref=e29]
+    - option "Lena Ortiz" [ref=e30]
+  - textbox "Location name" [required, ref=e14]
+  - textbox "Location address" [required, ref=e15]
+  - spinbutton "Capacity" [required, ref=e16]
+  - radio "Public" [checked=true, ref=e17]
+  - radio "Invite-only" [checked=false, ref=e18]
+  - textbox "Description (optional)" [ref=e19]
+  - textbox "Trainer notes (optional)" [ref=e20]
+  - button "Create session" [ref=e8]
+  - link "Back to sessions" [ref=e9]
+
+$ screenshot tasks/TASK-001/evidence/browser-create-desktop.png
+✓ Screenshot saved to tasks/TASK-001/evidence/browser-create-desktop.png
+
+$ eval 'JSON.stringify({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})'
+"{\"width\":1440,\"scrollWidth\":1440}"
+
+$ console
+[debug] [vite] connecting...
+[debug] [vite] connected.
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connecting...
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connected.
+[debug] [vite] connecting...
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connected.
+[debug] [vite] connecting...
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connected.
+[debug] [vite] connecting...
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connected.
+[debug] [vite] connecting...
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[debug] [vite] connected.
+
+$ errors
+
+$ network requests --filter /api/
+[4695.16] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.17] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.26] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.27] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.50] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.51] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.52] GET http://127.0.0.1:5173/api/sessions?query=Shooting&status= (Fetch) 200
+[4695.53] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch)
+[4695.54] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 200
+[4695.55] GET http://127.0.0.1:5173/api/sessions?query=Shooting&status=cancelled (Fetch) 200
+[4695.56] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.57] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch)
+[4695.58] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 200
+[4695.59] GET http://127.0.0.1:5173/api/sessions?query=&status=cancelled (Fetch) 200
+[4695.60] GET http://127.0.0.1:5173/api/coaches (Fetch) 200
+[4695.63] POST http://127.0.0.1:5173/api/sessions (Fetch) 500
+[4695.64] POST http://127.0.0.1:5173/api/sessions (Fetch) 201
+[4695.65] GET http://127.0.0.1:5173/api/sessions?query=&status=cancelled (Fetch) 200
+[4695.66] GET http://127.0.0.1:5173/api/sessions/ses_7c178f92-df74-4e99-9b5c-c92704caf200 (Fetch)
+[4695.67] GET http://127.0.0.1:5173/api/sessions/ses_7c178f92-df74-4e99-9b5c-c92704caf200 (Fetch) 200
+[4695.68] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.85] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.86] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.94] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.95] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.116] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.117] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 500
+[4695.118] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.134] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.135] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.144] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.145] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.166] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch)
+[4695.167] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.168] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 500
+[4695.169] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.170] GET http://127.0.0.1:5173/api/sessions/ses_101 (Fetch) 200
+[4695.186] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.187] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.196] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.197] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.218] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.219] GET http://127.0.0.1:5173/api/coaches (Fetch)
+[4695.220] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.221] GET http://127.0.0.1:5173/api/coaches (Fetch) 500
+[4695.224] GET http://127.0.0.1:5173/api/coaches (Fetch) 200
+[4695.240] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.241] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.250] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.251] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.272] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.273] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.274] GET http://127.0.0.1:5173/api/coaches (Fetch) 200
+[4695.292] GET http://127.0.0.1:5173/src/api/sessions-client.ts (Script) 200
+[4695.293] GET http://127.0.0.1:5173/src/api/contracts.ts (Script) 200
+[4695.302] GET http://127.0.0.1:5173/src/api/errors.ts (Script) 200
+[4695.303] GET http://127.0.0.1:5173/src/api/parse.ts (Script) 200
+[4695.324] GET http://127.0.0.1:5173/api/sessions/unknown-session (Fetch)
+[4695.325] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch)
+[4695.326] GET http://127.0.0.1:5173/api/sessions/unknown-session (Fetch) 404
+[4695.327] GET http://127.0.0.1:5173/api/sessions?query=&status= (Fetch) 200
+[4695.328] GET http://127.0.0.1:5173/api/sessions?query=Maya&status= (Fetch) 200
+[4695.329] GET http://127.0.0.1:5173/api/coaches (Fetch) 200
+
+$ get url
+http://127.0.0.1:5173/#/sessions/new
+
+$ close
+✓ Browser closed
+

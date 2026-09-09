@@ -7,6 +7,17 @@ import { server } from '../../mocks/server';
 import { mockState, resetMocks, setScenario } from '../../mocks/scenarios';
 import { coaches } from '../../mocks/store';
 const user = () => userEvent.setup();
+it('recovers from an unknown session deep link by returning to the list and opening a valid session', async () => {
+    history.replaceState(null, '', '/#/sessions/unknown-session');
+    render(<App />);
+    const details = within(screen.getByRole('region', { name: 'Session details' }));
+    await waitFor(() => expect(details.getByRole('status').textContent).toBe('Session not found.'));
+    await user().click(details.getByRole('link', { name: /Back to sessions/ }));
+    await screen.findByRole('heading', { name: '5 sessions' });
+    await user().click(screen.getAllByRole('link', { name: 'U14 Shooting Lab' })[0]);
+    await screen.findByText('maya@example.test');
+    expect(screen.queryByText('Session not found.')).toBeNull();
+});
 async function openCreate() {
     await user().click(screen.getAllByRole('link', { name: 'Create session' })[0]);
     await screen.findByRole('heading', { name: 'Create session' });
